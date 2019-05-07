@@ -1,0 +1,44 @@
+@media (max-width: 780px) {
+
+    .navButton {
+        display: block;
+    }
+
+    .navButton:hover .verticalNavigation {
+        display: block;
+    }
+
+    .horizontalNavigation {
+        display: none;
+    }
+
+    /*vertical Navigation start*/
+    .verticalNavigation {
+        display: none;
+    }
+
+    .verticalNavigation ul {
+        list-style-type: none;
+        width: 120px;
+        position: absolute;
+        right: 0;
+        top: 16px;
+    }
+
+    .verticalNavigation a {
+        font-size: 16px;
+        text-decoration: none;
+        color: #000000;
+        font-weight: bold;
+        display: block;
+        background-color: #d6c9c9;
+        width: 120px;
+    }
+
+    . a:hover {
+        color: #1535ed;
+        background-color: #9e9a9a;
+
+    }
+
+    /*vertical Navigation end*/
