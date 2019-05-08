@@ -1,0 +1,420 @@
+/*header ==========================================*/
+#headerContent {
+    width: 100%;
+    height: 1000px;
+    padding-top: 20px;
+    background-image: url(../images/background.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.logoNav {
+    display: flex;
+    justify-content: space-between;
+    width: 92%;
+    margin: 0 auto;
+
+}
+
+.blockLogo {
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 33px;
+    color: #FFFFFF;
+    width: 75px;
+}
+
+/*horizontal navigation start*/
+.horizontalNavigation {
+    width: 40%;
+}
+
+.basic_navigation {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 0;
+}
+
+.basic_navigation a {
+    text-decoration: none;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+
+.signUp {
+    background-color: #fff;
+    padding: 0 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.signUp:hover {
+    background-color: #fcdb7b;
+}
+
+.signUp a {
+    color: #1B264B;
+}
+
+/*horizontal navigation end*/
+
+/*vertical navigation start*/
+.navButton {
+    width: 45px;
+    height: 32px;
+    border-radius: 5px;
+    background-color: #bababa;
+    display: none;
+    padding: 0;
+    position: absolute;
+    right: 13px;
+    top: 32px;
+}
+
+hr {
+    color: black;
+    background-color: black;
+    height: 1px;
+    margin: 2px;
+    width: 47%;
+    position: relative;
+    top: 7px;
+    left: 9px;
+}
+
+/*vertical navigation end*/
+
+
+#headerContent h1 {
+    width: 70%;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 102px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    margin-left: 50px;
+}
+
+.blockText p {
+    width: 50%;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 74px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    margin-left: 50px;
+}
+
+
+/*welcomeToCrypto==================================*/
+#welcomeToCrypto {
+    padding: 50px 0;
+
+}
+
+#welcomeToCrypto h2 {
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+    color: #333333;
+    text-align: center;
+}
+
+#welcomeToCrypto p {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 37px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #333333;
+}
+
+/*products===========================================*/
+#products {
+    padding: 20px 0 50px;
+}
+
+.wrapper {
+    width: 80%;
+    height: 500px;
+    margin: 0 auto;
+    background-image: url(../images/pointBackground.png);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.wrapperProducts {
+    background-position: left bottom;
+}
+
+.productsText {
+    width: 45%;
+    height: 50%;
+}
+
+.productsText h2 {
+    width: 100%;
+    margin: 0 0 80px;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 45px;
+    line-height: 68px;
+    display: flex;
+    align-items: center;
+    color: #076572;
+}
+
+.viewMore a {
+    text-decoration: none;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+    color: #333333;
+}
+
+.viewMore img {
+    position: relative;
+    top: 3px;
+}
+
+.productsImg {
+    width: 45%;
+    height: 50%;
+    position: relative;
+}
+
+.productsImg img {
+    width: 65%;
+    margin: 0;
+    padding: 0;
+}
+
+.productsImg img:first-child {
+    position: absolute;
+    top: -30%;
+}
+
+.productsImg img:last-child {
+    position: absolute;
+    top: 30%;
+    left: 35%;
+}
+
+/*chart============================================*/
+#chart {
+    padding: 50px 0;
+    background-color: #fafafa;
+}
+
+.wrapperChart {
+    height: auto;
+    background-position: left top;
+    align-items: center;
+
+}
+
+.chartImg {
+    width: 45%;
+    height: 50%;
+}
+
+.chartImg img {
+    width: 100%;
+}
+
+.chartText {
+    width: 45%;
+    height: 50%;
+    position: relative;
+}
+
+.chartText h2 {
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 60px;
+    display: flex;
+    align-items: center;
+    color: #076572;
+    margin-top: 0;
+}
+
+.chartText p {
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 35px;
+    letter-spacing: 0.02em;
+    color: #333333;
+}
+
+/*support=================================================*/
+#support {
+    padding: 80px 0;
+}
+
+.wrapperSupport {
+    width: 80%;
+    height: auto;
+    background-position: center bottom;
+    align-items: center;
+}
+
+.supportText {
+    width: 45%;
+}
+
+.supportText h2 {
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 68px;
+    display: flex;
+    align-items: center;
+    color: #076572;
+    margin: 0 0 10px;
+    width: 80%;
+}
+
+.supportText p {
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 29px;
+    color: #282D32;
+    margin: 0 0 70px;
+}
+
+.supportImg {
+    width: 45%;
+}
+
+.supportImg img {
+    width: 100%;
+}
+
+/*footer=================================================*/
+.footer {
+    background-color: #30292f;
+    padding: 30px 0 20px;
+}
+
+.wrapperFooter {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.topFooter {
+    padding: 0 0 5px;
+    border-bottom: 1px solid rgba(218, 218, 218, 0.43);
+    display: flex;
+    justify-content: space-between;
+}
+
+.contactAddress {
+    width: 40%;
+}
+
+.contactAddress p:first-child {
+    font-family: Avenir;
+    font-size: 18px;
+    line-height: 25px;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 5px;
+}
+
+.contactAddress p:last-child {
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 33px;
+    letter-spacing: 0.02em;
+    color: #FFF;
+    margin-top: 0;
+}
+
+.formFooter {
+    width: 30%;
+}
+
+form input:first-child {
+    width: 76%;
+    height: 40px;
+    background: #FDFFFC;
+    border-radius: 5px 0 0 5px;
+    text-align: center;
+}
+
+form input:last-child {
+    width: 20%;
+    height: 45px;
+    background: #1768AC;
+    border-radius: 3px;
+    color: #FFFFFF;
+    cursor: pointer;
+    border: 0;
+    position: relative;
+    right: 6px;
+}
+
+.formFooter p {
+    font-family: Avenir;
+    font-size: 18px;
+    line-height: 21px;
+    color: rgba(255, 255, 255, 0.7);
+    margin: 2px 0 12px;
+}
+
+.bottomFooter {
+    display: flex;
+    justify-content: space-between;
+}
+
+.leftList ul,
+.rightList ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 0;
+}
+
+.bottomFooter a {
+    text-decoration: none;
+    font-family: Avenir;
+    font-size: 16px;
+    line-height: 19px;
+    color: rgba(255, 255, 255, 0.7);
+    margin-right: 10px;
+}
